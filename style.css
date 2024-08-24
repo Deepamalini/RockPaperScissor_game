@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('360_F_137859723_LTCBjgPbJrwsfoQCexyugu0s5FWptn45.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    background-color: white;
+    width: 300px; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+ 
+}
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    color: white; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.btn:hover {
+    transform: scale(1.05); 
+}
+
+.rock {
+    background-color: rgb(59, 163, 149);
+}
+
+.rock:hover {
+    background-color: rgb(49, 143, 129); 
+}
+
+.paper {
+    background-color: rgb(204, 155, 192);
+}
+
+.paper:hover {
+    background-color: rgb(174, 135, 174); 
+}
+
+.scissors {
+    background-color: rgb(189, 108, 214);
+}
+
+.scissors:hover {
+    background-color: rgb(164, 99, 198); 
+}
+
+.result {
+    font-size: 18px;
+    color: black; 
+}
